@@ -1,2 +1,4 @@
-.unshift File.join(File.dirname(__FILE__), '..', 'lib')
-require 'launch'
+#!/usr/bin/ruby
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), "..", "lib")
+require "maths"
+Application.new.start
