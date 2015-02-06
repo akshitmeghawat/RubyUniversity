@@ -1,6 +1,7 @@
 require "spec_helper"
 
 describe "Calculator Parser" do
+
   let(:calc_parser) {CalculatorParser.new}
   let(:history) {[]}
   it "should parse and return add command" do
@@ -39,4 +40,5 @@ describe "Calculator Parser" do
   it "should parse and return repeat command" do
     expect(calc_parser.parse("repeat 0",history).class).to eq(RepeatCommand)
   end
+  
 end

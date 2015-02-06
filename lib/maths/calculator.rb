@@ -1,6 +1,7 @@
 #to do math
 
 class Calculator
+	
 	def initialize(val)
 		@result = val
 	end

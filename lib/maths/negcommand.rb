@@ -4,5 +4,4 @@ class NegCommand
     calculator.neg
   end
 
-
 end

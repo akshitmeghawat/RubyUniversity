@@ -4,5 +4,4 @@ class SqrCommand
     calculator.sqr
   end
 
-
 end

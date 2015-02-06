@@ -3,11 +3,8 @@
 class CalculatorParser
 
   def parse(command_string,history)
-
-
     @opr = command_string.split
     @opr[1] = @opr[1].to_f
-
     if @opr[0] == "add"
       command = AddCommand.new(@opr[1])
       history.push(command)
@@ -45,6 +42,5 @@ class CalculatorParser
     end
     return command
   end
-
 
 end

@@ -6,4 +6,5 @@ describe 'AbsCommand' do
   it 'performs absolute operation' do
     expect(command.execute(calc)).to eq(5)
   end
+  
 end

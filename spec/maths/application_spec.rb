@@ -1,7 +1,6 @@
 require 'spec_helper'
 describe 'launch' do
 
-
   it "test the launch" do
   	
   	parser = CalculatorParser.new

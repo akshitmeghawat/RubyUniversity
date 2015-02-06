@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe 'calculator' do
-   let(:calci){Calculator.new(5)}
-
+  
+  let(:calci){Calculator.new(5)}
   it 'should add' do
     expect(calci.add(5)).to eq(10)
   end
@@ -36,4 +36,5 @@ describe 'calculator' do
     calci.subtract(3)
     expect(calci.cube).to eq(8)
   end
+
 end
